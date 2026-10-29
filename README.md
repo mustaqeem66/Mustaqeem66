@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Mustaqeem66"><img src="https://img.shields.io/badge/Contributions%20(past%20year)-26%2C869-2EA043?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="26,869 contributions in the past year"></a>
+  <a href="https://github.com/Mustaqeem66"><img src="https://img.shields.io/badge/Contributions%20(past%20year)-26%2C940-2EA043?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="26,940 contributions in the past year"></a>
   <a href="https://github.com/can1357/oh-my-pi/pulls?q=is%3Apr+author%3AMustaqeem66+is%3Amerged"><img src="https://img.shields.io/badge/Merged%20upstream%20PRs-30-2EA043?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117" alt="30 merged upstream pull requests"></a>
   <a href="https://github.com/can1357/oh-my-pi/pulls?q=is%3Apr+author%3AMustaqeem66+is%3Aopen"><img src="https://img.shields.io/badge/Open%20in%20review-24-D29922?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117" alt="24 pull requests open in review"></a>
 </p>
@@ -19,14 +19,25 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/mustaqeem66/contribution-city" title="Rebuilt every night from my contribution graph">
-    <img src="https://raw.githubusercontent.com/mustaqeem66/contribution-city/main/contribution-city.svg" alt="GitHub contribution city — one tower per day of commits" width="100%">
+  <a href="https://github.com/mustaqeem66/contribution-city" title="Every contribution in the last year, rebuilt nightly">
+    <img src="https://raw.githubusercontent.com/mustaqeem66/contribution-city/main/gitcity.svg" alt="Full-year GitHub contribution skyline — one tower per day" width="100%">
   </a>
 </p>
 
 <p align="center">
-  <sub><b>My last seven days, rendered as a city.</b> Each tower is a day of commits; it is rebuilt nightly by <a href="https://github.com/mustaqeem66/contribution-city">contribution-city</a>.</sub>
+  <sub><b>My entire contribution year, rendered as a skyline.</b> Every day is a tower; it is rebuilt nightly by <a href="https://github.com/mustaqeem66/contribution-city">contribution-city</a>, in the style of <a href="https://github.com/rishabhbhartiya/GitCity">GitCity</a>.</sub>
 </p>
+
+<details>
+<summary><b>This week's contribution city</b></summary>
+
+<p align="center">
+  <a href="https://github.com/mustaqeem66/contribution-city" title="The last seven days as a pixel-art city">
+    <img src="https://raw.githubusercontent.com/mustaqeem66/contribution-city/main/contribution-city.svg" alt="GitHub contribution city — one building per day" width="100%">
+  </a>
+</p>
+
+</details>
 
 ---
 
