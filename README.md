@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Mustaqeem66"><img src="https://img.shields.io/badge/Contributions%20(past%20year)-26%2C940-2EA043?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="26,940 contributions in the past year"></a>
+  <a href="https://github.com/Mustaqeem66"><img src="https://img.shields.io/badge/Contributions%20(past%20year)-26.9k%2B-2EA043?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="26.9k+ contributions in the past year"></a>
   <a href="https://github.com/can1357/oh-my-pi/pulls?q=is%3Apr+author%3AMustaqeem66+is%3Amerged"><img src="https://img.shields.io/badge/Merged%20upstream%20PRs-30-2EA043?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117" alt="30 merged upstream pull requests"></a>
   <a href="https://github.com/can1357/oh-my-pi/pulls?q=is%3Apr+author%3AMustaqeem66+is%3Aopen"><img src="https://img.shields.io/badge/Open%20in%20review-24-D29922?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117" alt="24 pull requests open in review"></a>
 </p>
