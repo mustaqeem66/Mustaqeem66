@@ -6,34 +6,45 @@
 </p>
 
 <p align="center">
-  <a href="mailto:ageisnode@gmail.com"><img src="https://img.shields.io/badge/Email%20me-ageisnode@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email ageisnode@gmail.com"></a>
+  <a href="mailto:ageisnode@gmail.com"><img src="https://img.shields.io/badge/Email-ageisnode@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email ageisnode@gmail.com"></a>
   <a href="https://github.com/Mustaqeem66"><img src="https://img.shields.io/badge/GitHub-Mustaqeem66-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub profile"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/can1357/oh-my-pi/graphs/contributors"><img src="https://img.shields.io/badge/Commits%20in%20oh--my--pi-8-2EA043?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="8 commits in oh-my-pi"></a>
-  <a href="https://github.com/can1357/oh-my-pi/pulls?q=is%3Apr+author%3AMustaqeem66+is%3Amerged"><img src="https://img.shields.io/badge/Merged%20PRs-5-2EA043?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117" alt="5 merged PRs in oh-my-pi"></a>
-  <a href="https://github.com/can1357/oh-my-pi/pulls?q=is%3Apr+author%3AMustaqeem66+is%3Aopen"><img src="https://img.shields.io/badge/Open%20in%20review-4%20PRs-D29922?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117" alt="4 open PRs in oh-my-pi"></a>
-  <a href="https://github.com/search?q=is%3Apr+author%3AMustaqeem66&type=pullrequests"><img src="https://img.shields.io/badge/Public%20PRs-24-1F6FEB?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117" alt="24 public PRs"></a>
-  <a href="https://github.com/Mustaqeem66?tab=repositories"><img src="https://img.shields.io/badge/Projects%20contributed-186k%20stars-8957E5?style=for-the-badge&logo=starship&logoColor=white&labelColor=0D1117" alt="186k combined stars"></a>
-</p>
-
-<p align="center">
-  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"></a>
-  <a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"></a>
-  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
-  <a href="https://www.php.net/"><img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP"></a>
-  <a href="https://laravel.com/"><img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel"></a>
-  <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue"></a>
-  <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"></a>
-  <a href="https://bun.sh/"><img src="https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white" alt="Bun"></a>
+  <a href="https://github.com/Mustaqeem66"><img src="https://img.shields.io/badge/Contributions%20(past%20year)-26%2C869-2EA043?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="26,869 contributions in the past year"></a>
+  <a href="https://github.com/can1357/oh-my-pi/pulls?q=is%3Apr+author%3AMustaqeem66+is%3Amerged"><img src="https://img.shields.io/badge/Merged%20upstream%20PRs-30-2EA043?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117" alt="30 merged upstream pull requests"></a>
+  <a href="https://github.com/can1357/oh-my-pi/pulls?q=is%3Apr+author%3AMustaqeem66+is%3Aopen"><img src="https://img.shields.io/badge/Open%20in%20review-24-D29922?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117" alt="24 pull requests open in review"></a>
 </p>
 
 ---
 
-## Merged upstream &mdash; [oh-my-pi](https://github.com/can1357/oh-my-pi) (23.7k&#9733;)
+<p align="center">
+  <a href="https://github.com/mustaqeem66/contribution-city" title="Rebuilt every night from my contribution graph">
+    <img src="https://raw.githubusercontent.com/mustaqeem66/contribution-city/main/contribution-city.svg" alt="GitHub contribution city — one tower per day of commits" width="100%">
+  </a>
+</p>
 
-**8 commits** on `can1357/oh-my-pi@main` across **5 merged pull requests**. Both numbers are real and measure different things: the [contributor graph](https://github.com/can1357/oh-my-pi/graphs/contributors) counts commits carrying my authorship, while #7853 and #7849 were landed by the maintainer as squashed merge commits authored by `can1357`, so their code is in `main` but does not appear in my commit count.
+<p align="center">
+  <sub><b>My last seven days, rendered as a city.</b> Each tower is a day of commits; it is rebuilt nightly by <a href="https://github.com/mustaqeem66/contribution-city">contribution-city</a>.</sub>
+</p>
+
+---
+
+## What I work on
+
+**Agent safety and sandboxing.** Most agent bugs are not crashes &mdash; they are guards that fail *open*. A permission check that returns `0` on an unreadable file reads as "clean." A `Math.max(0, NaN)` passes every threshold. I audit for the failure mode where a system reports success while doing nothing.
+
+**Tool harness correctness.** Command interception that blocks `grep` when it is a legitimate pipeline stage. Shell sessions that never deterministically close. Fallback selectors resolved twice in parallel. These are the defects that make an agent feel unreliable without ever producing an error.
+
+**Retrieval and grounding.** Claim extraction, evidence verification, and the reranking logic that decides whether a generated answer is actually supported by its sources.
+
+---
+
+## Upstream work
+
+### [oh-my-pi](https://github.com/can1357/oh-my-pi) (37k&#9733;) &mdash; 30 merged PRs
+
+Rust/TypeScript coding agent. My merged work spans the TUI, extension loader, model catalog, fuzzy finder, and browser tooling.
 
 | # | PR | Area | What it fixes | Merged |
 |---|---|---|---|---|
@@ -44,20 +55,15 @@
 | 5 | [#7515](https://github.com/can1357/oh-my-pi/pull/7515) &mdash; `feat(browser): auto-detect Ungoogled Chromium on Linux` | Browser tool | Ungoogled Chromium executable names, absolute paths, and the system-wide and per-user Flatpak shims for `io.github.ungoogled_software.ungoogled_chromium` are appended to `systemChromiumCandidates()`, so a stock Chrome install still wins and `PUPPETEER_EXECUTABLE_PATH` is unaffected (#7509) | 2026-08-05 |
 
 <details>
-<summary><b>The 8 commits, individually</b></summary>
+<summary><b>Earlier commits, individually</b></summary>
 
 | Commit | Message | PR | Date |
 |---|---|---|---|
 | [`bf99f9c`](https://github.com/can1357/oh-my-pi/commit/bf99f9ce5bd829cd7cc31b7b967549b9e9d9b65c) | `test(tui): lock the paired OSC 133 command zone instead of its absence` | #8213 | 2026-08-11 |
 | [`d5e2bb9`](https://github.com/can1357/oh-my-pi/commit/d5e2bb9299ac58fd78f39706257f3710758b4610) | `fix(tui): close the OSC 133 prompt zone so terminals clear input state` | #8213 | 2026-08-11 |
-| [`f4811ce`](https://github.com/can1357/oh-my-pi/commit/f4811ce7c4b986a7df360e6b855a611534e3f82f) | `Merge pull request #4 from can1357/main` (fork sync) | &mdash; | 2026-08-09 |
 | [`60187c9`](https://github.com/can1357/oh-my-pi/commit/60187c9ba96bda40f5695889e11c5dfe7fb74166) | `refactor(fuzzy-find): release the heap borrow before evicting` | #7536 | 2026-08-03 |
 | [`2cf0a47`](https://github.com/can1357/oh-my-pi/commit/2cf0a47d6a835740308610972aba022f8a869324) | `perf(fuzzy-find): retain only the bounded top-K scored matches` | #7536 | 2026-08-03 |
 | [`cc66b1d`](https://github.com/can1357/oh-my-pi/commit/cc66b1d74274747b2c906eb5569e3fc22e4a8f96) | `feat(browser): detect Ungoogled Chromium on Linux` | #7515 | 2026-08-03 |
-| [`0124728`](https://github.com/can1357/oh-my-pi/commit/0124728118f8f3927a1c99485dafaffe36da79a7) | `Merge pull request #2 from can1357/main` (fork sync) | &mdash; | 2026-08-03 |
-| [`386f05d`](https://github.com/can1357/oh-my-pi/commit/386f05d241051e3c131b042511084cb5246bae39) | `Merge pull request #1 from can1357/main` (fork sync) | &mdash; | 2026-08-03 |
-
-Five carry code; three are fork-sync merges. The squashed merge commits for #7853 ([`22a3393`](https://github.com/can1357/oh-my-pi/commit/22a3393f4db14019f15f492105d2453427b72125)) and #7849 are authored by the maintainer and so fall outside this list.
 
 </details>
 
@@ -70,17 +76,14 @@ Five carry code; three are fork-sync merges. The squashed merge commits for #785
 | [#7855](https://github.com/can1357/oh-my-pi/pull/7855) &mdash; `fix(shell): deterministic native session close` | `Shell` had no explicit `close()`, so callers relied on GC to release pty and child-process handles. Adds an idempotent async close that aborts active execution and drops the session core (#7491) | +98, 4 files |
 | [#7512](https://github.com/can1357/oh-my-pi/pull/7512) &mdash; `fix(bash-interceptor): don't block grep as a pipeline stdin filter` | `printf 'x' \| grep x` was blocked with "use the grep tool", but the grep tool searches disk and cannot read pipeline stdout. Narrow exemption for grep-family stages that consume pipeline stdin and take no path operand (#7496). 19 new assertions | +193 / &minus;16, 3 files |
 
-Also working across [openhuman](https://github.com/tinyhumansai/openhuman) (36k&#9733;), [graphify](https://github.com/Graphify-Labs/graphify) (105k&#9733;), [prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) (13k&#9733;) and [forgecode](https://github.com/tailcallhq/forgecode) (7k&#9733;).
+### Also contributing upstream
 
----
-
-## What I actually work on
-
-**Agent safety and sandboxing.** Most agent bugs are not crashes &mdash; they are guards that fail *open*. A permission check that returns `0` on an unreadable file reads as "clean." A `Math.max(0, NaN)` passes every threshold. I audit for the failure mode where a system reports success while doing nothing.
-
-**Tool harness correctness.** Command interception that blocks `grep` when it is a legitimate pipeline stage. Shell sessions that never deterministically close. Fallback selectors resolved twice in parallel. These are the defects that make an agent feel unreliable without ever producing an error.
-
-**Retrieval and grounding.** Claim extraction, evidence verification, and the reranking logic that decides whether a generated answer is actually supported by its sources.
+| Project | Stack | Focus |
+|---|---|---|
+| [openhuman](https://github.com/tinyhumansai/openhuman) (42k&#9733;) | Rust | Flow-graph dedup, memory-tree embedding resolver diagnostics, `chunks_pending` accounting |
+| [graphify](https://github.com/Graphify-Labs/graphify) (138k&#9733;) | Python | Per-edge confidence in affected output, Kotlin import-edge grammar |
+| [prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) (22k&#9733;) | Python | Coding-agent context eligibility regression tests |
+| [forgecode](https://github.com/tailcallhq/forgecode) (7.6k&#9733;) | Rust | Agent tooling correctness |
 
 ---
 
@@ -94,9 +97,21 @@ Focus areas: workspace path confinement, single-use consent tokens for privilege
 
 *Currently private. Happy to walk through the architecture.*
 
-### Contributions to agent tooling
+---
 
-Ongoing upstream work on `oh-my-pi`, `openhuman`, `graphify` and `prime-agent` &mdash; mostly correctness fixes in extension loading, terminal shell integration, memory and embedding resolution, parser edge cases, and concurrency.
+## Toolbox
+
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP">
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel">
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue">
+  <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white" alt="Bun">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+</p>
 
 ---
 
@@ -107,8 +122,6 @@ Ongoing upstream work on `oh-my-pi`, `openhuman`, `graphify` and `prime-agent` &
 - Contributing fixes upstream to open-source coding agents
 
 ---
-
-## Contact
 
 <p align="center">
   <a href="mailto:ageisnode@gmail.com"><img src="https://img.shields.io/badge/Get%20in%20touch-ageisnode@gmail.com-EA4335?style=for-the-badge&logo=maildotru&logoColor=white&labelColor=0D1117" alt="Email ageisnode@gmail.com"></a>
